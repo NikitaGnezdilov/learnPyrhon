@@ -1,0 +1,21 @@
+Daily Work Report
+Date: June 28, 2024
+
+Today I studied:
+
+1) Python Basics:
+    "for" loops: learned the basics of writing loops, particularly the "for num in range" construct.
+    "if", "elif", "else" statements: reviewed the main constructs for code branching.
+2) Working with Lists:
+    Using the "sum()" function to sum the elements of a list.
+    Accessing dictionary values using "name.values()".
+3) Problem Solving:
+    Solved about 35 simple problems, applying the studied constructs and methods.
+4) Mathematical Operations:
+    Studied all basic mathematical operators: %, !=, +=, -=, //, /, *, **, +, - and etc.
+5) Additional Topics:
+    Touched on using the "math.sqrt" function to calculate square roots.
+    Learned the method of exponentiation using the "pow()" function for numbers and lists.
+
+The code for completed tasks was not saved due to technical problems
+The problems were taken from the code.mu website
