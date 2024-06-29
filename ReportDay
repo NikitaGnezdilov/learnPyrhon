@@ -23,7 +23,7 @@ The problems were taken from the code.mu website
 
 29.06.2024
 Feature of the round() function
-Bitwise shift operations
+Shift operations
 Comparison operations
 Logical operations
 Conditional statements
@@ -31,3 +31,6 @@ Loops:
 while
 for
 Functions and function parameters
+Lambda expressions
+Type conversion
+Variable scope
