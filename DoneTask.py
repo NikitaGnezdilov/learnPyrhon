@@ -1,6 +1,6 @@
 # def name (a, b):
 #     return a + b
-
+import math
 
 # def is_even(n):
 #     if n % 2 == 0:
@@ -74,3 +74,47 @@
 # b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 # elements = list(set(a) & set(b))
 # print(elements)
+
+# class Person:
+# def __init__(self, name, age):
+# self.name = name
+# self.age = age
+
+
+# tim = Person('Tim', 25)
+# print(tim.name)
+# print(tim.age)
+
+
+# class Student:
+# #     def __init__(self, name, age, city, height):
+# #         self.name = name
+# #         self.age = age
+# #         self.city = city
+# #         self.height = height
+# #
+# #
+# # tom = Student('Tom', 19, city='San Francisco', height=180)
+# # bob = Student('Bob', 21, city='Moscow', height=175)
+# # allen = Student('Allen', 18, city='London', height=190)
+# # # print("Name: " + tom.name + ", Age: " + str(tom.age) + ", City: " + tom.city + ", Height: " + str(tom.height))
+# # # print("Name: " + bob.name + ", Age: " + str(bob.age) + ", City: " + bob.city + ", Height: " + str(bob.height))
+# # # print("Name: " + allen.name + ", Age: " + str(allen.age) + ", City: " + allen.city + ", Height: " + str(allen.height))
+# # print(f"Name: {tom.name}, Age: {tom.age}, City: {tom.city}, Height: {tom.height}")
+# # print(f"Name: {bob.name}, Age: {bob.age}, City: {bob.city}, Height: {bob.height}")
+# # print(f"Name: {allen.name}, Age: {allen.age}, City: {allen.city}, Height: {allen.height}")
+
+# class Circle:
+#     def __init__(self, radius):
+#         self.radius = radius
+#
+#     def area(self):
+#         return math.pi * (self.radius ** 2)
+#
+#     def circumference(self):
+#         return 2 * math.pi * self.radius
+#
+#
+# circle = Circle(2)
+# print(circle.area())
+# print(circle.circumference())
