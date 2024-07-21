@@ -2,7 +2,6 @@
 #     return a + b
 import math
 
-
 # def is_even(n):
 #     if n % 2 == 0:
 #         print("True")
@@ -224,68 +223,108 @@ import math
 # tom.set_city("Tombow")
 # tom.print_information()
 
-class Hospital:
-    """Инициализирует имя, адрес, город и состояние посетителя."""
+# class Hospital:
+#     """Инициализирует имя, адрес, город и состояние посетителя."""
+#
+#     def __init__(self, name, age, address, city, state):
+#         self.__name = name
+#         self.__age = age
+#         self.__address = address
+#         self.__city = city
+#         self.__state = state
+#
+#     """Выводит всю информацию в командную строку"""
+#
+#     def print_information(self):
+#         print(
+#             f"Name: {self.__name}, Age: {self.__age}, Address: {self.__address}, City: {self.__city}, State: {self.__state}")
+#
+#     """Сеттер для установления возраста"""
+#
+#     @property
+#     def age(self):
+#         return self.__age
+#
+#     @age.setter
+#     def age(self, age):
+#         if 0 < age < 100:
+#             self.__age = age
+#         else:
+#             print("Incorrect Age")
+#
+#     """Сеттер для установления адреса"""
+#
+#     @property
+#     def address(self):
+#         return self.__address
+#
+#     @address.setter
+#     def address(self, address_string):
+#         self.__address = address_string
+#
+#     """Сеттер для установления города проживания"""
+#
+#     @property
+#     def city(self):
+#         return self.__city
+#
+#     @city.setter
+#     def city(self, city_string):
+#         self.__city = city_string
+#
+#     """Сеттер для установления состояния посетителя"""
+#
+#     @property
+#     def state(self):
+#         return self.__state
+#
+#     @state.setter
+#     def state(self, state_string):
+#         self.__state = state_string
+#
+#
+# tom = Hospital("Tom", 15, "Pushkina 4", "Moscow", "Sick")
+# tom.age = 25
+# tom.state = "A little sick"
+# tom.city = "Tombow"
+# tom.print_information()
 
-    def __init__(self, name, age, address, city, state):
-        self.__name = name
-        self.__age = age
-        self.__address = address
-        self.__city = city
-        self.__state = state
-
-    """Выводит всю информацию в командную строку"""
-
-    def print_information(self):
-        print(
-            f"Name: {self.__name}, Age: {self.__age}, Address: {self.__address}, City: {self.__city}, State: {self.__state}")
-
-    """Сеттер для установления возраста"""
-
-    @property
-    def age(self):
-        return self.__age
-
-    @age.setter
-    def age(self, age):
-        if 0 < age < 100:
-            self.__age = age
-        else:
-            print("Incorrect Age")
-
-    """Сеттер для установления адреса"""
-
-    @property
-    def address(self):
-        return self.__address
-
-    @address.setter
-    def address(self, address_string):
-        self.__address = address_string
-
-    """Сеттер для установления города проживания"""
-
-    @property
-    def city(self):
-        return self.__city
-
-    @city.setter
-    def city(self, city_string):
-        self.__city = city_string
-
-    """Сеттер для установления состояния посетителя"""
-
-    @property
-    def state(self):
-        return self.__state
-
-    @state.setter
-    def state(self, state_string):
-        self.__state = state_string
-
-
-tom = Hospital("Tom", 15, "Pushkina 4", "Moscow", "Sick")
-tom.age = 25
-tom.state = "A little sick"
-tom.city = "Tombow"
-tom.print_information()
+# class Person:
+#     def __init__(self, name, age, city):
+#         self.__name = name
+#         self.__age = age
+#         self.__city = city
+#
+#     @property
+#     def name(self):
+#         return self.__name
+#
+#     @name.setter
+#     def name(self, name_str):
+#         self.__name = name_str
+#
+#     @property
+#     def age(self):
+#         return self.__age
+#
+#     @age.setter
+#     def age(self, age_str):
+#         self.__age = age_str
+#
+#     @property
+#     def city(self):
+#         return self.__city
+#
+#     @city.setter
+#     def city(self, city_str):
+#         self.__city = city_str
+#
+#
+# class Student(Person):
+#
+#     def student_info(self):
+#         print(f"Name: {self.name}, age: {self.age}, city: {self.city}")
+#
+#
+# tom = Student("Tom", 34, "Moscow")
+# tom.student_info()
