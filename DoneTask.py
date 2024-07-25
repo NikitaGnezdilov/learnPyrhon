@@ -328,3 +328,82 @@ import math
 #
 # tom = Student("Tom", 34, "Moscow")
 # tom.student_info()
+
+# class Person:
+#     type = "Person"
+#     description = "Describes a person"
+#
+#     def __init__(self, name):
+#         self.__name = name
+#
+#     def print_name(self):
+#         print(f"Hello {self.name}")
+#
+#     @property
+#     def name(self):
+#         return self.__name
+#
+#     @name.setter
+#     def name(self, name):
+#         self.__name = name
+#
+#
+# tom = Person("Tom")
+# bob = Person("Bob")
+# tim = Person("Tim")
+# nick = Person("Nick")
+# answer = str(input("What is your name? "))
+#
+# if answer == tom.name:
+#     print(tom.type, "is you")
+#     print(tom.description)
+#     print(tom.name)
+# elif answer == bob.name:
+#     print(bob.type, "is you")
+#     print(bob.description)
+#     print(bob.name)
+# elif answer == tim.name:
+#     print(tim.type, "is you")
+#     print(tim.description)
+#     print(tim.name)
+# elif answer == nick.name:
+#     print(nick.type, "is you")
+#     print(nick.description)
+#     print(nick.name)
+#     print(tom.name)
+# else:
+#     print("Incorrect name")
+
+
+# class Number:
+#     def __init__(self, value):
+#         self.value = value
+#
+#     def __add__(self, other):
+#         return Number(self.value + other.value)
+#
+#     def __str__(self):
+#         return f"{self.value}"
+#
+# num1 = Number(5)
+# num2 = Number(6)
+# sum = num1 + num2
+# print(sum)
+
+# class Number:
+#     def __init__(self, value):
+#         self.value = value
+#
+#     def __bool__(self):
+#         return self.value > 0
+#
+# def num(Number):
+#     if Number: print(f'Number true: {Number.value}')
+#     else: print(f'Number false: {Number.value}')
+#
+# result1 = Number(1)
+# num(result1)
+#
+# result2 = Number(-1)
+# num(result2)
+
