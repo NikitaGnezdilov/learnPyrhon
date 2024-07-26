@@ -1,6 +1,6 @@
 # def name (a, b):
 #     return a + b
-import math
+# import math
 
 # def is_even(n):
 #     if n % 2 == 0:
@@ -407,3 +407,32 @@ import math
 # result2 = Number(-1)
 # num(result2)
 
+# class Person:
+#     def __init__(self, name, age):
+#         self.__name = name
+#         self.__age = age
+#
+#     def __getitem__(self, prop):
+#         if prop == "name":
+#             return self.__name
+#         elif prop == "age":
+#             return self.__age
+#         return None
+#
+# p1 = Person("John", 25)
+# print("Name: ", p1["name"])
+# print("Age: ", p1["age"])
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.__name = name
+#         self.__age = age
+#
+#     def __contains__(self, prop):
+#         if prop == 'name' or prop == 'age': return True
+#         return False
+#
+# p1 = Person("John", 25)
+# print("name" in p1)
+# print("age" in p1)
+# print("id  " in p1)
